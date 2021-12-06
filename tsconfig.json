@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ES6",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "strict": true,
+        "strictNullChecks": true,
+        "noEmit": true,
+        "declaration": false,
+        "isolatedModules": false,
+        "esModuleInterop": true
+    }
+}
