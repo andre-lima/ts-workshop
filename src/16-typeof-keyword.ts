@@ -14,4 +14,4 @@ export type Foo = typeof foo;
 
 let someFoo: Foo;
 
-// LET'S GO AHEAD WITH EXERCISE 8
+// LET'S GO AHEAD WITH EXERCISE 7

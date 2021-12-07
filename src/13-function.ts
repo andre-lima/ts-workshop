@@ -44,8 +44,13 @@ export function baz(a: number) {
     return a + " some string";
 }
 
+export function bat({ a, b }: { a: number; b: number }) {
+    // typing deconstructed arguments
+    return a + " some string";
+}
+
 export function someVoid() {
     // function someVoid(): void
 }
 
-// LET'S GO AHEAD WITH EXERCISE 7
+// LET'S GO AHEAD WITH EXERCISE 6
