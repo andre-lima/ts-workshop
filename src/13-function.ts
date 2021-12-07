@@ -52,6 +52,6 @@ export function someVoid() {
  * Typing deconstructed arguments and tuples
  */
 
-export function bat({ a, b }: { a: number; b: number }): [number, number] {
-    return [a, b];
+export function bat({ a, b }: { a: number; b: number }): [number, string] {
+    return [a, b + "%"];
 }
