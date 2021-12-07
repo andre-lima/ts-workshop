@@ -25,7 +25,7 @@ someBooleanY = 1; // Also works
 
 someBooleanY = 3; // Type '3' is not assignable to type 'BooleanY'.
 
-type Mixed = string | number | boolean;
+type Mixed = string | number | boolean | null;
 
 export let someMixed: Mixed;
 
@@ -34,5 +34,7 @@ someMixed = false;
 someMixed = 100;
 
 someMixed = "some string";
+
+someMixed = null;
 
 // LET'S GO AHEAD WITH EXERCISE 5

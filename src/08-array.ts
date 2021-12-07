@@ -3,7 +3,7 @@
  * using square brackets
  */
 
-export let someStringArray: string[];
+export let someStringArray: string[]; // Or Array<string>
 
 someStringArray = ["1", "2", "3"]; // Works
 
