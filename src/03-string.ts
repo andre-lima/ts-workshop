@@ -23,6 +23,3 @@ someString = 1.toString(); // An identifier or keyword cannot immediately follow
 someString = 1.0.toString(); // Works!
 
 someString = (1.).toString(); // Works!
-
-
-someString = {}.toString(); // Works; results to [object Object]
