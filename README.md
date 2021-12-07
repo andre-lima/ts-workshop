@@ -17,8 +17,12 @@ Make sure you have Node.js on your machine. Then clone the project and install t
 -   Open the project in your IDE choice
 -   Open the first exercise `src/50-exercise-1.ts`
 
+## Note
+
+This course was developed on Typescript version 4.0.2. Future versions may affect some behavior of the code here.
+
 ## Running exercises
 
-Currently there are 4 exercises in the project and you may run the following command to try the first `npm run try 1` or `yarn try 1`.
+Currently there are 6 exercises in the project and you may run the following command to try the first `npm run try 1` or `yarn try 1`.
 
 Note you may press `CTRL+C` to exit.
