@@ -3,13 +3,12 @@
  * using '?' token
  */
 
-
 interface Foo {
     prop1: string | undefined;
     prop2: number;
 }
 
-export let someFoo: Foo
+export let someFoo: Foo;
 
 // Works
 someFoo = {
@@ -19,7 +18,6 @@ someFoo = {
 
 // Error
 someFoo = { prop2: 100 }; // Property 'prop1' is missing in type '{ prop2: number; }' but required in type 'T1'.
-
 
 /**
  * We might wanna drop prop1 property completely
@@ -37,24 +35,20 @@ someBar = { prop2: 100 }; // Works
 
 someBar = { prop1: undefined, prop2: 100 }; // Also Works
 
-
 /**
  * Take advantage of optional token in function arguments
  */
 
-function fooUtil(arg: string | undefined) {
-
-}
+function fooUtil(arg: string | undefined) {}
 
 // Still needs the first argument :(
 fooUtil(); // Expected 1 arguments, but got 0.
 
-
 // Make argument optional
-function barUtil(arg?: string) {
-
-}
+function barUtil(arg?: string) {}
 
 // Better :)
 barUtil(); // arg?: string | undefined
 barUtil(undefined); // Also works :)
+
+// LET'S GO AHEAD WITH EXERCISE 6

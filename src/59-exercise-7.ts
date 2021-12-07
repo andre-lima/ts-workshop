@@ -1,6 +1,6 @@
 /**
- * Exercise 8
- * run `npm run try 8` to check your work
+ * Exercise 7
+ * run `npm run try 7` to check your work
  */
 
 /**

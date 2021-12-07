@@ -1,6 +1,6 @@
 /**
- * Exercise 7
- * run `npm run try 7` to check your work
+ * Exercise 6
+ * run `npm run try 6` to check your work
  */
 
 /**
@@ -8,6 +8,7 @@
  *       1. Add missing types to the following function to accept first argument to be custom type 'Data'
  *       2. Make property 'value' in the custom type 'Data' to be optional
  *       3. Adjust the implementation
+ *       4. Add a type for 'count'
  */
 
 interface Data {
