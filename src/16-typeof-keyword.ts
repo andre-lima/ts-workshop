@@ -13,5 +13,3 @@ export const foo = {
 export type Foo = typeof foo;
 
 let someFoo: Foo;
-
-// LET'S GO AHEAD WITH EXERCISE 7

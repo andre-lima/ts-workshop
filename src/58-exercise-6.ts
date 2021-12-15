@@ -4,7 +4,7 @@
  */
 
 /**
- * (++) Make these 3 changes:
+ * (++) Make these 4 changes (in order):
  *       1. Add missing types to the following function to accept first argument to be custom type 'Data'
  *       2. Make property 'value' in the custom type 'Data' to be optional
  *       3. Make sure 'value' receives a default value or handles the case where no value is passed
